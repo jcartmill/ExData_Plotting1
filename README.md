@@ -59,21 +59,25 @@ The four plots I made are shown below. These were made with the basic plotting p
 My plot 
 ![plot1](plot1.png) 
 
-My plot 
-![plot1](figues/unnamed-chunk-2.png) 
+Original 
+![plot1](figure/unnamed-chunk-2.png) 
 
 ### Plot 2
 
 ![plot2](plot2.png) 
+Original 
+![plot2](figure/unnamed-chunk-3.png) 
 
 
 ### Plot 3
 
 ![plot3](plot3.png) 
-
+Original 
+![plot2](figure/unnamed-chunk-4.png) 
 
 ### Plot 4
 
 ![plot4](plot4.png) 
-
+Original 
+![plot4](figure/unnamed-chunk-5.png) 
 
