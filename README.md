@@ -39,13 +39,9 @@ web site</a>:
 
 * Step 1 was to use the read.csv() command with the sep=";" the first two fields were set to character, and the rest were set as numeric.  
 
-* Step 2 I selected only the dtat fro the first two days in Febrary 2007.
+* Step 2 I selected only the data from the first two days in February 2007 as called out in the assignmnet.
 
 * For step 3 I used the lubridate library to convert the date and time to a single date time group.  
-
-
-
-
 
 
 
@@ -60,9 +56,11 @@ The four plots I made are shown below. These were made with the basic plotting p
 
 ### Plot 1
 
-
+My plot 
 ![plot1](plot1.png) 
 
+My plot 
+![plot1](figues/unnamed-chunk-2.png) 
 
 ### Plot 2
 
