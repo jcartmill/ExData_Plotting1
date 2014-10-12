@@ -6,8 +6,7 @@ household<-read.csv("R/data//exdata-data-household_power_consumption/household_p
 household$Date<-dmy(household$Date)
 #Select only the correct dates
 hh<-household[(household$Date==dmy("1/2/2007")|household$Date==dmy("2/2/2007")), ]
-#Format dates
-hh$Date<-ymd_hms(paste(as.character(hh$Date),hh$Time))
+
 #Plot Histogram
 hist((hh$Global_active_power),main = "Global Active Power", col="red",ylab="Frequency",xlab="Global Active Power (kilowatts)")
 #Push out a png file

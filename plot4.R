@@ -21,7 +21,7 @@ lines(hh$datetime,hh$Sub_metering_1)
 lines(hh$datetime,hh$Sub_metering_2,col="red")
 lines(hh$datetime,hh$Sub_metering_3,col="blue")
 #Legend with no box bty "o"
-legend("topright",  pch=c(NA,NA) ,cex=0.6, col = c("blacK", "blue", "red"), legend = c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"),lwd=1, lty=1, bty="n")
+legend("topright",  pch=c(NA,NA) ,cex=0.7,text.width=69000, col = c("blacK", "blue", "red"), legend = c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"),lwd=1, lty=1, bty="n")
 
 with(hh,plot(datetime,Voltage,type="n",ylab="Voltage"))
 lines(hh$datetime,hh$Voltage)
